@@ -4,7 +4,7 @@ import java.util.concurrent.Executors;
 public class RPCThread extends Thread {
     private static final int MYTHREADS = 5;
 
-    public static void main(String args[]) throws InterruptedException{
+    public static void main(String args[]) {
         ExecutorService executor = Executors.newFixedThreadPool(MYTHREADS);
 
         for(int i = 0; i < 10; i++){
