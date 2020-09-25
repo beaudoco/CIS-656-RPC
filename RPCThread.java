@@ -23,11 +23,6 @@ class HelloThread implements Runnable {
     @Override
     public void run() {
         System.out.print("1");
-//        try {
-//            Thread.sleep(400);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
     }
 }
 
@@ -36,10 +31,5 @@ class ByeThread implements Runnable {
     @Override
     public void run() {
         System.out.print("2");
-//        try {
-//            Thread.sleep(350);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
     }
 }
